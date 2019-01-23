@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.6em;
+    display: flex;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+ul {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.6em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+h3 {
+    font-family: 'Contrail One', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Galindo', cursive;
+    font-size: 1em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Gugi', cursive;
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 5.9em;
+    margin-right: 5.9em;
+}
+
+hr {
+    margin-top: 0.01em;
+    margin-bottom: 0.5em;
+    margin-left: 4.8em;
+    margin-right: 4.8em;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.img1 {
+    float: right;
+}
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 {
+    background-image: url(https://r.hswstatic.com/w_907/gif/climate-change-bear.jpg);
+    font-size: 8em;
+}
+
+.header {
+    font-size: 2em;
+}
+
+.img {
+    margin-left: 0.9em;
+    margin-right: 0.9em;
+}
+
+.content {
+    font-size: 2em;
+    width: 100%;
+    display: flex;
+}
+
+.content2 {
+    font-size: 2em;
+    width: 100%;
+}
+
+.option-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gugi', cursive;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.option-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gugi', cursive;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.option-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gugi', cursive;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 50%
+    }
+    .option-1,
+    .img,
+    .option-2,
+    .option-3 {
+        width: 30%;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .option-1,
+    .img,
+    .option-2,
+    .option-3 {
+        width: 50%;
+        font-size: 20%
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+    .page {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .option-1,
+    .option-2,
+    .option-3 {
+        width: 33.3%;
+        font-size: 150%
+    }
+    .header {
+        height: 280px;
+    }
+    .section {
+        height: 300px;
+    }
+    .header1 {
+        height: 500px;
+    }
+
+    content2 {
+        height: 80px;
+    }
+    .content {
+        height: 1870px;
+    }
+}
